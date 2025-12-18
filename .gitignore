@@ -1,0 +1,53 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Cache
+.cache/
+.pytest_cache/
+pip-wheel-metadata/
+
+# ----------------------------------------
+# Environment variables / Secrets
+# ----------------------------------------
+.env
+*.env
+.env.local
+secret*.json
+
+# Streamlit specific
+.streamlit/
+
+
+# Chroma / Vector Databases
+# Avoid uploading MB/GB of DB files
+chroma/
+*.sqlite3
+*.bin
+*.pickle
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+
+# Build / Distribution
+build/
+dist/
+*.egg
+*.whl
